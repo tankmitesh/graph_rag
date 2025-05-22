@@ -52,14 +52,6 @@ Lists all the Python packages required to run the project.
    pip install -r requirements.txt
    ```
 
-## Startup Guide
-
-### Using the Startup Script
-Run the following command to install dependencies and start the Uvicorn server:
-```bash
-python startup.py
-```
-
 ### Manual Startup
 1. Install dependencies:
    ```bash
