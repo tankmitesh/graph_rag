@@ -10,22 +10,19 @@ Main entry point for the GraphRAG system. It initializes the system, processes d
 ### `graph_rag_streamlit.py`
 Provides a Streamlit-based user interface for interacting with the GraphRAG system. Users can input web links and queries to fetch and process information.
 
-### `query_engine.py`
+### `context_navigator.py`
 Handles querying the knowledge graph and retrieving relevant answers. It includes methods for context expansion and answer validation.
 
-### `knowledge_graph.py`
+### `semantic_mapper.py`
 Defines the KnowledgeGraph class, which builds and manages the knowledge graph. It includes methods for adding nodes, creating embeddings, and extracting concepts.
 
-### `document_processor.py`
+### `data_splitter.py`
 Processes documents by splitting them into chunks and creating embeddings. It also manages a vector store for efficient document retrieval.
 
-### `visualizer.py`
-Provides visualization tools for graph traversal and filtered content. It uses NetworkX and Matplotlib for graph visualization.
-
-### `concepts.py`
+### `idea_extractor.py`
 Defines a Pydantic model for representing a list of concepts extracted from documents.
 
-### `answer_check.py`
+### `response_validator.py`
 Defines a Pydantic model for validating whether a context provides a complete answer to a query.
 
 ### `pyproject.toml`

@@ -13,9 +13,9 @@ from langchain_community.document_loaders import PyPDFLoader
 sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "..")))
 
 # Local imports
-from query_engine import QueryEngine
-from document_processor import DocumentProcessor
-from knowledge_graph import KnowledgeGraph
+from context_navigator import QueryEngine
+from data_splitter import DocumentProcessor
+from semantic_mapper import KnowledgeGraph
 
 # Load environment variables
 load_dotenv()
